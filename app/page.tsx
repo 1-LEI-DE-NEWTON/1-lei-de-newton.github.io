@@ -20,7 +20,7 @@ export default function Home() {
       {cases.map((c) => (
         <article key={c.title}>
           <small>
-            {c.org} · {c.role} · {c.period}
+            {c.org} · {c.role}
           </small>
           <h2>{c.title}</h2>
           <h3>Problem</h3>

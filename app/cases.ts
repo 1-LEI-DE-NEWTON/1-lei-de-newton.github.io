@@ -1,7 +1,6 @@
 export type Case = {
   org: string;
   role: string;
-  period: string;
   title: string;
   problem: string;
   approach: string[];
@@ -13,7 +12,6 @@ export const cases: Case[] = [
   {
     org: "CNPq / AskROD",
     role: "Lead Research Developer",
-    period: "Sep 2025 – present",
     title: "On-prem RAG assistant with open models",
     problem:
       "An institutional assistant had to answer from internal documents without sending any data to paid APIs, but hybrid retrieval was ranking the wrong passages.",
@@ -36,7 +34,6 @@ export const cases: Case[] = [
   {
     org: "LASIC",
     role: "Software Engineer — Fullstack & DevOps",
-    period: "Apr 2024 – present",
     title: "Cross-system product matching in production",
     problem:
       "Inventory items and stock records from different systems were matched by hand, with frequent errors, slow queries and race conditions.",
@@ -56,10 +53,9 @@ export const cases: Case[] = [
   {
     org: "LASIC",
     role: "DevOps & Infrastructure",
-    period: "Apr 2024 – present",
     title: "From manual deploys to observable, resilient infra",
     problem:
-      "Deploys depended on one person, there was no monitoring, and a week-long power/internet outage took the self-hosted servers down in July 2026.",
+      "Deploys depended on one person, there was no monitoring, and a week-long power/internet outage took the self-hosted servers down.",
     approach: [
       "GitHub Actions + Jenkins pipelines with GitHub Environments and automated checks.",
       "Workload-aware runner selection with fallback to cut paid CI minutes.",
@@ -77,7 +73,6 @@ export const cases: Case[] = [
   {
     org: "SAACI Labs",
     role: "Founder & Full-Stack Engineer",
-    period: "2026 – present",
     title: "A solo studio shipping AI products end to end",
     problem:
       "Build and operate a portfolio of products alone, owning backend, frontend, data, auth and infra.",
